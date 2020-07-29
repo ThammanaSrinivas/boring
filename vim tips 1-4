@@ -1,0 +1,30 @@
+Week 1 : 
+
+Tip -1 : The dot command
+    the dot command repeats the "last change" ( note the word change )
+    Note : even the change done during the insert mode counts
+
+>G increases the indentation from the current line to the end of the line
+
+Tip -2 : Don't repeat yourself
+
+Two for the price of one :
+    C = c$
+    s = cl
+    S = ^C
+    I = ^i
+    A = $a
+    o = A<CR>
+    O = ko
+
+Tip -3 : Take one step back, then three forward
+         this tip is useful for change
+
+Tip -4 : Act, repeat and reverse
+    ; = repeats the previous f { char }
+    , = repeats the previous f { char } in reverse way
+    this also works for t { char }
+
+    here the f { char } is the act
+    ; is the repeat
+    and , is the reverse if things get messy
