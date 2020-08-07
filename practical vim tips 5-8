@@ -1,0 +1,26 @@
+Tip -5 : Find and replace by hand
+         This is useful for simple one line substitutions 
+         use ; and . combo ( ; repeats prev search and . repeats cw )
+         ( note : ":s is really good" )
+
+Tip - 6: Meet the dot formula
+         The ideal : One keystroke to move + One keystroke to execute
+         Example   :          j            +          .
+                              ;            +          .
+                              n            +          .
+
+Note : Many normal mode command can be used with count
+
+
+                            NORMAL MODE
+
+
+Tip -7: Pause with your brush off the page
+        go to normal mode 
+            1) if necessary
+            2) you need to rest
+
+Tip -8: Chunk your undo
+        In vim undo represents " recent change " (visual included)
+        
+        So go to normal mode sometimes to chunk undos
